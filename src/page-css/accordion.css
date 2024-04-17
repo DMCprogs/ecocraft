@@ -1,0 +1,28 @@
+.right-arrow {
+  position: absolute;
+  right: 6px;
+  font-size: 3vw;
+  color: rgba(37, 37, 37, 0.8);
+  z-index: 100;
+ 
+  cursor: pointer;
+  user-select: none;
+}
+.left-arrow {
+  position: absolute;
+  left: 6px;
+
+  font-size: 3vw;
+  color: rgba(37, 37, 37, 0.8);
+  z-index: 100;
+  cursor: pointer;
+  user-select: none;
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+}
